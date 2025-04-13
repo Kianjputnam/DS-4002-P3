@@ -1,0 +1,5 @@
+# Data directory
+data/data/
+.DS_Store
+.venv/
+.venv
