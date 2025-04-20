@@ -12,7 +12,7 @@ This dataset was obtained from the Analytics Vidhya JantaHack Computer Vision Ha
 
 We are using Jupter Notebooks for this program that run on Python 3 (prefferably 3.10+). Our code can be run on **Google Colab** by importing our notebooks. The following files require access to a GPU (or else will be very slow):
 
-1. ___.ipynb
+1. DataDescription.ipynb
 
 For this file, a **Windows** or **Linux** environment is needed with `pytorch` ..., packages and access to a Nvidia GPU and respective drivers. Additonal packages will be included in the files themselves as a runtime dependency. These files can alternatively be run on **Google Colab** or **Rivanna**. 
 
@@ -35,8 +35,10 @@ unzip data.zip
 
 The scripts can be run in the order shown by their filenames. While this is not a strict requirements, note that some files need to be run before others in the order shown below
 
-1. ...
-2. ...
+1. DataDescription.ipynb
+2. RESNET_Model (2).ipynb
+
+After running the first file, you will have to go through the test data and create a new column, emergency_or_not. This data can be lined up to the images seen in the first file. After labeling the test data, it becomes new_labeled_test.csv. This new file along with the training data in data.zip will be ran through file 2.
 
 ### References
 
