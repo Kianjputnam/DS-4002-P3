@@ -38,7 +38,7 @@ The scripts can be run in the order shown by their filenames. While this is not 
 1. DataDescription.ipynb
 2. RESNET_Model (2).ipynb
 
-After running the first file, you will have to go through the test data and create a new column, emergency_or_not. This data can be lined up to the images seen in the first file. After labeling the test data, it becomes new_labeled_test.csv. This new file along with the training data in data.zip will be ran through file 2.
+The first file cleans the data and allows the user to see the image data. After running the first file, you will have to go through the test data and create a new column, emergency_or_not. This data can be lined up to the images seen in the first file. After labeling the test data, it becomes new_labeled_test.csv. This new data along with the training data in data.zip will be ran through file two to complete the ResNet model.
 
 ### References
 
